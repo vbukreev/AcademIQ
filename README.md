@@ -13,3 +13,6 @@ A smart platform to help students discover post-graduate programs that fit their
 bundle install
 rails db:create db:migrate db:seed --- if haven't done so already
 rails server
+
+```
+##Follow this link: http://[::1]:3000
