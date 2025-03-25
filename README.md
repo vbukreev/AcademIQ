@@ -16,4 +16,6 @@ rails server
 
 ```
 ## Follow this link 
+```bash
 http://[::1]:3000
+```
