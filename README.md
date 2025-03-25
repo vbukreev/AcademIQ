@@ -1,24 +1,15 @@
-# README
+# AcademIQ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A smart platform to help students discover post-graduate programs that fit their GPA, interests, and career goals.
 
-Things you may want to cover:
+## Tech Stack
+- Ruby on Rails
+- PostgreSQL (hosted on AWS RDS in production)
+- OpenAI API (for personalized suggestions)
+- Devise (authentication - coming soon)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Setup
+```bash
+bundle install
+rails db:create db:migrate db:seed --- if haven't done so already
+rails server
