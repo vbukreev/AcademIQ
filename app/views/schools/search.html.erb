@@ -1,0 +1,16 @@
+<%= form_with url: schools_chatgpt_path, method: :post, local: true, data: { turbo: false } do %>
+
+  <%= label_tag :field, "Field of Study" %>
+  <%= text_field_tag :field %>
+
+  <%= label_tag :location, "Location" %>
+  <%= text_field_tag :location %>
+
+  <%= label_tag :gpa, "Your GPA" %>
+  <%= text_field_tag :gpa %>
+
+  <%= label_tag :goals, "Career Goals" %>
+  <%= text_field_tag :goals %>
+
+  <%= submit_tag "Get AI Suggestions" %>
+<% end %>

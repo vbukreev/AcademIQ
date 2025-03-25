@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  min_gpa: 1.5
+  location: MyString
+  field: MyString
+  description: MyText
+
+two:
+  name: MyString
+  min_gpa: 1.5
+  location: MyString
+  field: MyString
+  description: MyText

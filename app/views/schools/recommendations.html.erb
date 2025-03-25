@@ -1,0 +1,13 @@
+<h1>Best Recommendations</h1>
+
+<p><strong>Your Profile:</strong></p>
+<ul>
+  <li>GPA: <%= @user.gpa %></li>
+  <li>Interests: <%= @user.interests %></li>
+  <li>Goals: <%= @user.goals %></li>
+</ul>
+
+<hr>
+
+<h2>Recommended Programs:</h2>
+<pre style="white-space: pre-wrap;"><%= @suggestions %></pre>
