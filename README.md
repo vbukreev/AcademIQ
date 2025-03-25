@@ -15,4 +15,5 @@ rails db:create db:migrate db:seed --- if haven't done so already
 rails server
 
 ```
-##Follow this link: http://[::1]:3000
+## Follow this link 
+http://[::1]:3000
